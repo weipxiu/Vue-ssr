@@ -1,7 +1,7 @@
 {
   "name": "next-demo",
   "version": "1.0.0",
-  "description": "ssr-demo",
+  "description": "SSR-Demo",
   "author": "李俊",
   "private": true,
   "scripts": {

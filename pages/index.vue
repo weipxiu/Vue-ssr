@@ -11,34 +11,31 @@
 </template>
 
 <script>
-import axios from '~/plugins/axios'
+import axios from "~/plugins/axios";
 export default {
-  data(){
+  data() {
     return {
-      abc:''
-    }
+      abc: ""
+    };
   },
-  methods:{
-    onbutton(){
-      this.$router.push('/' + this.abc)
+  methods: {
+    onbutton() {
+      this.$router.push("/" + this.abc);
     }
   }
-}
+};
 </script>
 
 <style scoped>
-.title
-{
+.title {
   margin: 30px 0;
 }
-.users
-{
+.users {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.user
-{
+.user {
   margin: 10px 0;
 }
 </style>

@@ -1,4 +1,4 @@
-# next-demo
+# nuxt-demo
 
 > 测试下
 
